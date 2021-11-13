@@ -1,0 +1,3 @@
+set batch-test-data1 batch-test-value1
+hset batch-test-data2 key1 batch-test-value2-1
+hset batch-test-data2 key2 batch-test-value2-2

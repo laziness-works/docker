@@ -7,3 +7,4 @@ services:
     command: /bin/bash /data/startup.sh
     volumes:
       - ./startup.sh:/data/startup.sh
+      - ./preload-data:/data/preload-data
