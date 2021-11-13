@@ -5,6 +5,8 @@ services:
   database:
     image: redis:6.2.6
     command: /bin/bash /data/startup.sh
+    ports:
+      - 6379:6379
     volumes:
       - ./startup.sh:/data/startup.sh
       - ./preload-data:/data/preload-data
